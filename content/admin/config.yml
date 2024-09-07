@@ -1,9 +1,18 @@
 backend:
-  name: reunion.rouquin.me
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
 
 site_url: https://reunion.rouquin.me
 
 publish_mode: editorial_workflow
+public_folder: /public/img
 media_folder: /public/img
 
 locale: 'fr'
