@@ -12,7 +12,7 @@ backend:
 site_url: https://reunion.rouquin.me
 
 publish_mode: editorial_workflow
-public_folder: /img
+public_folder: /public/img
 media_folder: /img
 
 locale: 'fr'
