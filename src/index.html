@@ -28,15 +28,15 @@ path: home
             </p>
             {% if post.data.description %}
                 <p class="text-lg text-gray-500 mb-3">
-                    {{ post.data.description }}
+                    {{ post.data.content }}
                 </p>
             {% endif %}
 
-            <p>
+            {# <p>
                 <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
                     Read more →
                 </a>
-            </p>
+            </p> #}
 
         </article>
     {% endfor %}
