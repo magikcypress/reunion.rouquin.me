@@ -8,6 +8,7 @@ path: home
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
+    {{ post.data.content }}
         <article class="my-8">
             <h2 class="font-bold text-3xl text-gray-900 mb-2">
                 <a href="{{ post.url | url }}">
@@ -28,15 +29,15 @@ path: home
             </p>
             {% if post.data.description %}
                 <p class="text-lg text-gray-500 mb-3">
-                    {{ post.data.content }}
+                  {{ post.data.description | safe }}
                 </p>
             {% endif %}
 
-            {# <p>
+            <p>
                 <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
                     Read more →
                 </a>
-            </p> #}
+            </p>
 
         </article>
     {% endfor %}

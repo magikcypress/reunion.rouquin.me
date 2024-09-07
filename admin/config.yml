@@ -57,8 +57,7 @@ collections: # A list of collections the CMS should be able to edit
     label: 'About' # Used in the UI
     label_singular: 'About' # Used in the UI, ie: "New Post"
     description: >
-      Restaurants is an entry type used for testing galleries, relations and other widgets.
-      The tests must be written in such way that adding new fields does not affect previous flows.
+      Qui suis-je?
     folder: '_about'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
