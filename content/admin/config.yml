@@ -12,8 +12,8 @@ backend:
 site_url: https://reunion.rouquin.me
 
 publish_mode: editorial_workflow
-public_folder: /public/img
-media_folder: /public/img
+public_folder: img
+media_folder: img
 
 locale: 'fr'
 
