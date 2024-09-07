@@ -13,7 +13,7 @@ site_url: https://reunion.rouquin.me
 
 publish_mode: editorial_workflow
 public_folder: /public/img
-# media_folder: /img
+media_folder: /public/img
 
 locale: 'fr'
 
