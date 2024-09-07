@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
     description: >
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
-    folder: 'blog'
+    folder: 'content/blog'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     create: true # Allow users to create new documents in this collection
