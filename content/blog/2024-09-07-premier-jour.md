@@ -3,7 +3,9 @@ title: "Premier jour "
 draft: false
 date: 2024-09-08
 ---
-![](/img/24-08-29-20-32-05-2484.jpg)
+
+
+![](/public/img/flag.png)
 
 Vraiment super heureux d’être arrivé sur cette petite île de l’océan Indien.
 
