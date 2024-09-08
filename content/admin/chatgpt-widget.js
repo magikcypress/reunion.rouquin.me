@@ -30,7 +30,7 @@ const ChatGPTWidgetControl = createClass({
   },
   handleSendToChatGPT() {
     const question = this.state.value;
-    const apiUrl = '/.netlify/functions/chatgpt';
+    const apiUrl = '/netlify/functions/chatgpt';
 
     fetch(apiUrl, {
       method: 'POST',
