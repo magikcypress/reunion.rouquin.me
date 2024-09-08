@@ -30,9 +30,7 @@ const ChatGPTWidgetControl = createClass({
   },
   handleSendToChatGPT() {
     const question = this.state.value;
-    const apiKey = process.env.OPENAIKEY; // Remplacez par votre clé API OpenAI
-		console.log(apiKey)
-    const apiUrl = 'https://api.openai.com/v1/completions';
+    const apiUrl = '/.netlify/functions/chatgpt';
 
     fetch(apiUrl, {
       method: 'POST',
