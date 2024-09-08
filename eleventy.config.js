@@ -43,7 +43,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.setLibrary('md', markdownLib);
 
 	// Watch content images for the image pipeline.
-	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+	eleventyConfig.addWatchTarget("public/img/*.{svg,webp,png,jpeg}");
 
 	// App plugins
 	eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
