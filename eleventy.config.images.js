@@ -19,6 +19,7 @@ module.exports = eleventyConfig => {
 		let metadata = await eleventyImage(file, {
 			widths: [640, 768],
 			formats,
+			urlPath: "/public/img/",
 			outputDir: path.join(eleventyConfig.dir.output, "img"), // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
 		});
 
