@@ -11,6 +11,16 @@ const ChatGPTWidgetControl = createClass({
         value: this.state.value,
         onChange: this.handleInputChange,
         placeholder: 'Posez une question à ChatGPT',
+				style: {
+					width: '100%',
+					height: '300px',
+					padding: '15px',
+					fontFamily: 'Arial',
+					fontSize: '16px',
+					borderRadius: '8px',
+					border: '1px solid #ccc',
+					backgroundColor: '#f9f9f9',
+				},
       }),
       h('button', {
         onClick: this.handleSendToChatGPT
