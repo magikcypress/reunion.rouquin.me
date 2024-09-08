@@ -55,6 +55,8 @@ collections: # A list of collections the CMS should be able to edit
           default: '{{now}}',
         }
 
+      - { label: "Location", name: "location", widget: "map" }
+
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
   - name: 'settings'
