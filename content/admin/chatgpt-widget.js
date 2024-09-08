@@ -35,8 +35,7 @@ const ChatGPTWidgetControl = createClass({
     fetch(apiUrl, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${apiKey}`
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify({
         model: 'gpt-4',
