@@ -37,12 +37,7 @@ const ChatGPTWidgetControl = createClass({
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({
-        model: 'gpt-4',
-        prompt: question,
-        max_tokens: 150,
-        temperature: 0.7
-      })
+      body: JSON.stringify({ question })
     })
     .then(response => response.json())
     .then(data => {
