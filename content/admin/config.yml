@@ -54,11 +54,8 @@ collections: # A list of collections the CMS should be able to edit
           format: 'YYYY-MM-DD',
           default: '{{now}}',
         }
-      - label: 'Cover Image'
-        name: 'image'
-        widget: 'image'
-        required: false
-        tagname: ''
+
+      - { label: "Location", name: "location", widget: "map" }
 
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
