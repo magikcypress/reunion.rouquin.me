@@ -32,7 +32,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"./content/admin/config.yml": "./admin/config.yml",
 		"./public/": "/",
-		"./public/img/": "/img/",
+		"/img/": "./public/img/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
 
