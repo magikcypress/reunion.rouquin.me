@@ -33,6 +33,8 @@ export default async (event) => {
 			})
 		});
 
+		console.log(res);
+
 		if (!res.ok) {
 			return {
 				statusCode: res.status,
@@ -45,6 +47,7 @@ export default async (event) => {
 
 		// Récupère la réponse sous forme de texte car c'est un stream
 		const body = await res.text();
+		console.log(body);
 
 		return new Response(body, {
 			headers: {
