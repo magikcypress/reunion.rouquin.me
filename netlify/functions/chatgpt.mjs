@@ -32,10 +32,13 @@ export default async (event) => {
 		})
 	});
 
-	if (!res.ok) {
+  if (!res.ok) {
     return {
       statusCode: res.status,
-      body: JSON.stringify({ error: "Erreur lors de l'appel à OpenAI" }),
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ error: "Erreur lors de l'appel à OpenAI" })
     };
   }
 
@@ -46,7 +49,8 @@ export default async (event) => {
 		headers: {
 			// This is the mimetype for server-sent events
 			"content-type": "text/event-stream"
-		}
+		},
+		body
 	});
 
 };
