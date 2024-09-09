@@ -56,7 +56,7 @@ export default async (event) => {
 		console.log(error);
     // Gère les erreurs potentielles et retourne une réponse d'erreur
     return {
-      statusCode: 500,
+      statusCode: 502,
       headers: {
         "Content-Type": "application/json"
       },
