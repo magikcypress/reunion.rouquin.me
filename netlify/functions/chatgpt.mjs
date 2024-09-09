@@ -1,4 +1,4 @@
-export default async () => {
+export default async (event) => {
 
 	const apiKey = process.env.OPENAIKEY;
 
@@ -22,7 +22,7 @@ export default async () => {
 				{
 					role: "system",
 					content:
-						"You are a baker. The user will ask you for a pie recipe. You will respond with the recipe. Use markdown to format your response"
+						"Vous êtes boulanger. L'utilisateur vous demande une recette de tarte. Vous répondrez en donnant la recette. Utilisez le format markdown pour formater votre réponse"
 				},
 				// Use "slice" to limit the length of the input to 500 characters
 				{ role: "user", content: pie.slice(0, 500) }
