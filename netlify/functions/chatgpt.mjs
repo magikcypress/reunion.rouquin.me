@@ -32,6 +32,16 @@ export default async (event) => {
 		})
 	});
 
+	if (!res.ok) {
+    return {
+      statusCode: res.status,
+      body: JSON.stringify({ error: "Erreur lors de l'appel à OpenAI" }),
+    };
+  }
+
+  // Récupère la réponse sous forme de texte car c'est un stream
+  const body = await res.text();
+
 	return new Response(body, {
 		headers: {
 			// This is the mimetype for server-sent events
