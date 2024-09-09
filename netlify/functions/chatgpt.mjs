@@ -28,6 +28,8 @@ export default async (event) => {
       })
     });
 
+		console.log(res);
+
     // Vérifie si la réponse de l'API OpenAI est correcte
     if (!res.ok) {
       return {
