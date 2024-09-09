@@ -1,71 +1,63 @@
 export default async (event) => {
+  const apiKey = process.env.OPENAIKEY;
 
-	const apiKey = process.env.OPENAIKEY;
+  // Récupère le paramètre "pie" de la requête, ou utilise une valeur par défaut
+  const pie =
+    event.queryStringParameters?.pie ??
+    "something inspired by a springtime garden";
 
-	// Get the request from the request query string, or use a default
-	const pie =
-		event.queryStringParameters?.pie ??
-		"something inspired by a springtime garden";
+  try {
+    // Fait la requête à l'API OpenAI
+    const res = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${apiKey}` // Utilise la clé API OpenAI
+      },
+      body: JSON.stringify({
+        model: "gpt-3.5-turbo",
+        messages: [
+          {
+            role: "system",
+            content:
+              "Vous êtes boulanger. L'utilisateur vous demande une recette de tarte. Vous répondrez en donnant la recette. Utilisez le format markdown pour formater votre réponse."
+          },
+          { role: "user", content: pie.slice(0, 500) }
+        ],
+        stream: true // Activation du streaming dans l'API OpenAI
+      })
+    });
 
-	try {
-		// The response body returned from "fetch" is a "ReadableStream",
-		// so you can return it directly in your streaming response
-		const res = await fetch("https://api.openai.com/v1/chat/completions", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-				// Set this environment variable to your own key
-				"Authorization": `Bearer ${apiKey}`
-			},
-			body: JSON.stringify({
-				model: "gpt-3.5-turbo",
-				messages: [
-					{
-						role: "system",
-						content:
-							"Vous êtes boulanger. L'utilisateur vous demande une recette de tarte. Vous répondrez en donnant la recette. Utilisez le format markdown pour formater votre réponse"
-					},
-					// Use "slice" to limit the length of the input to 500 characters
-					{ role: "user", content: pie.slice(0, 500) }
-				],
-				// Use server-sent events to stream the response
-				stream: true
-			})
-		});
+    // Vérifie si la réponse de l'API OpenAI est correcte
+    if (!res.ok) {
+      return {
+        statusCode: res.status,
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ error: "Erreur lors de l'appel à OpenAI" })
+      };
+    }
 
-		console.log(res);
+    // Récupère la réponse sous forme de texte
+    const body = await res.text();
 
-		if (!res.ok) {
-			return {
-				statusCode: res.status,
-				headers: {
-					"Content-Type": "application/json"
-				},
-				body: JSON.stringify({ error: "Erreur lors de l'appel à OpenAI" })
-			};
-		}
-
-		// Récupère la réponse sous forme de texte car c'est un stream
-		const body = await res.text();
-		console.log(body);
-
-		return new Response(body, {
-			headers: {
-				// This is the mimetype for server-sent events
-				"content-type": "text/event-stream"
-			},
-			body
-		});
-
-	} catch (error) {
-		// Gère les erreurs potentielles et retourne une réponse d'erreur
-		return {
-			statusCode: 500,
-			headers: {
-				"Content-Type": "application/json"
-			},
-			body: JSON.stringify({ error: `Erreur interne: ${error.message}` })
-		};
-	}
-
+    // Retourne la réponse en tant qu'événement Server-Sent (streaming)
+    return {
+      statusCode: 200,
+      headers: {
+        "Content-Type": "text/event-stream" // Mimetype pour server-sent events
+      },
+      body // Retourne le contenu récupéré depuis OpenAI
+    };
+  } catch (error) {
+    // Gère les erreurs potentielles et retourne une réponse d'erreur
+    return {
+      statusCode: 500,
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ error: `Erreur interne: ${error.message}` })
+    };
+  }
 };
