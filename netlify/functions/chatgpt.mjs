@@ -51,6 +51,7 @@ export default async (event) => {
       body // Retourne le contenu récupéré depuis OpenAI
     };
   } catch (error) {
+		console.log(error);
     // Gère les erreurs potentielles et retourne une réponse d'erreur
     return {
       statusCode: 500,
