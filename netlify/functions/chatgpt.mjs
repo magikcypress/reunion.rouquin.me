@@ -30,6 +30,7 @@ export default async (event) => {
     });
 
 		console.log(res);
+    console.log(res.body);
 		clearTimeout(timeoutId);
 
     if (!res.ok) {
@@ -42,14 +43,12 @@ export default async (event) => {
       };
     }
 
-		const data = await res.json();
-
     return {
       statusCode: 200,
       headers: {
         "Content-Type": "text/event-stream"
       },
-      body: data
+      body: res.body
     };
 
   } catch (error) {
