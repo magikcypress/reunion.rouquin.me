@@ -1,12 +1,12 @@
-export default async (event) => {
+const fetch = require('node-fetch');
+
+exports.handler = async function (event, context) {
   const apiKey = process.env.OPENAIKEY;
-	const timeOut = 25000;
+  const prompt = JSON.parse(event.body).question;
+  const timeOut = 25000;
+  const controller = new AbortController(); // Création d'un abort controller pour gérer le timeout
 
-  const pie =
-    event.queryStringParameters?.pie ??
-    "something inspired by a springtime garden";
-
-	const timeoutId = setTimeout(() => controller.abort(), timeOut);
+  const timeoutId = setTimeout(() => controller.abort(), timeOut);
 
   try {
     const res = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -17,21 +17,13 @@ export default async (event) => {
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
-        messages: [
-          {
-            role: "system",
-            content:
-              "Vous êtes boulanger. L'utilisateur vous demande une recette de tarte. Vous répondrez en donnant la recette. Utilisez le format markdown pour formater votre réponse."
-          }
-          // { role: "user", content: pie.slice(0, 500) }
-        ],
-        stream: true
-      })
+        messages: [{ role: "user", content: prompt }],  // Utilisation de "messages" pour gpt-3.5-turbo
+        max_tokens: 100
+      }),
+      signal: controller.signal  // Utilisation du signal du controller pour le timeout
     });
 
-		console.log(res);
-    console.log(res.body);
-		clearTimeout(timeoutId);
+    clearTimeout(timeoutId);
 
     if (!res.ok) {
       return {
@@ -50,12 +42,11 @@ export default async (event) => {
       headers: {
         "Content-Type": "application/json"
       },
-      body: data.choices[0].text.trim()
+      body: JSON.stringify(data.choices[0].message.content.trim())  // Correction pour gpt-3.5-turbo
     };
 
   } catch (error) {
-		console.log(error);
-
+    clearTimeout(timeoutId);
     return {
       statusCode: 502,
       headers: {
@@ -63,6 +54,5 @@ export default async (event) => {
       },
       body: JSON.stringify({ error: `Erreur interne: ${error.message}` })
     };
-
   }
 };
