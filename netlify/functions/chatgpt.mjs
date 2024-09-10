@@ -42,7 +42,7 @@ export default async (event) => {
       };
     }
 
-		const data = await res.json();
+		const data = await res;
 
     return {
       statusCode: 200,
