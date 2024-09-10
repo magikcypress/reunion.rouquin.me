@@ -49,7 +49,7 @@ export default async (event) => {
       headers: {
         "Content-Type": "application/json"
       },
-      body
+      body: JSON.stringify(res.data)
     };
   } catch (error) {
 		console.log(error);
