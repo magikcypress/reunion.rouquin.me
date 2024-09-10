@@ -47,7 +47,7 @@ export default async (event) => {
     return {
       statusCode: 200,
       headers: {
-        "Content-Type": "text/event-stream"
+        "Content-Type": "application/json"
       },
       body
     };
