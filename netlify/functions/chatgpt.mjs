@@ -48,7 +48,7 @@ export default async (event) => {
     return {
       statusCode: 200,
       headers: {
-        "Content-Type": "text/event-stream"
+        "Content-Type": "application/json"
       },
       body: data.choices[0].text.trim()
     };
