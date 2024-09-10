@@ -45,7 +45,7 @@ exports.handler = async function (event, context) {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(data.choices[0].message.content.trim())  // Correction pour gpt-3.5-turbo
+        body: JSON.stringify(data.choices.message.content.trim())  // Correction pour gpt-3.5-turbo
       };
     } else {
       return {
