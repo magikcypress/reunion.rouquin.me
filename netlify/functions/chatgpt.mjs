@@ -43,12 +43,14 @@ export default async (event) => {
       };
     }
 
+    const data = await res.json();
+
     return {
       statusCode: 200,
       headers: {
         "Content-Type": "text/event-stream"
       },
-      body: res.body
+      body: data.choices[0].text.trim()
     };
 
   } catch (error) {
