@@ -40,6 +40,7 @@
 	},
 	"dependencies": {
 		"@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
-		"markdown-it-attrs": "^4.1.6"
+		"markdown-it-attrs": "^4.1.6",
+		"openai": "^4.58.2"
 	}
 }
