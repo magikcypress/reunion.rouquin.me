@@ -37,13 +37,14 @@ exports.handler = async function (event, context) {
 
     const data = await res.json();
     console.log(data)
+    onsole.log(data.choices)
 
     return {
       statusCode: 200,
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(data.choices[0].message.content.trim())  // Correction pour gpt-3.5-turbo
+      body: JSON.stringify(data.choices[0].message.content.trim())
     };
 
   } catch (error) {
