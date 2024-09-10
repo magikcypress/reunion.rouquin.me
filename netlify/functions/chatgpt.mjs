@@ -1,10 +1,13 @@
 export default async (event) => {
   const apiKey = process.env.OPENAIKEY;
+	const timeOut = 25000;
 
   // Récupère le paramètre "pie" de la requête, ou utilise une valeur par défaut
   const pie =
     event.queryStringParameters?.pie ??
     "something inspired by a springtime garden";
+
+	const timeoutId = setTimeout(() => controller.abort(), timeOut);
 
   try {
     // Fait la requête à l'API OpenAI
@@ -29,6 +32,7 @@ export default async (event) => {
     });
 
 		console.log(res);
+		clearTimeout(timeoutId);
 
     // Vérifie si la réponse de l'API OpenAI est correcte
     if (!res.ok) {
@@ -62,5 +66,6 @@ export default async (event) => {
       },
       body: JSON.stringify({ error: `Erreur interne: ${error.message}` })
     };
+
   }
 };
