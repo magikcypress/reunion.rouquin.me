@@ -1,4 +1,4 @@
-import { Configuration, OpenAIApi } from "openai";
+const { Configuration, OpenAIApi } = require("openai");
 
 // Initialiser la configuration avec la clé API
 const configuration = new Configuration({
