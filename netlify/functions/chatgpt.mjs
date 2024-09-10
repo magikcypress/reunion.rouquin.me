@@ -22,8 +22,8 @@ export default async (event) => {
             role: "system",
             content:
               "Vous êtes boulanger. L'utilisateur vous demande une recette de tarte. Vous répondrez en donnant la recette. Utilisez le format markdown pour formater votre réponse."
-          },
-          { role: "user", content: pie.slice(0, 500) }
+          }
+          // { role: "user", content: pie.slice(0, 500) }
         ],
         stream: true
       })
