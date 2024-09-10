@@ -36,6 +36,7 @@ exports.handler = async function (event, context) {
     }
 
     const data = await res.json();
+    console.log(data)
 
     return {
       statusCode: 200,
