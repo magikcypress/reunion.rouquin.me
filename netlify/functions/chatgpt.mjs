@@ -42,14 +42,14 @@ export default async (event) => {
       };
     }
 
-		const data = await res;
+		const data = await res.json();
 
     return {
       statusCode: 200,
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "text/event-stream"
       },
-      body: JSON.stringify(data)
+      body: data
     };
 
   } catch (error) {
