@@ -1,4 +1,4 @@
-export default async (event) => {
+exports.handler = async (event) => {
   const apiKey = process.env.OPENAIKEY;
 	const timeOut = 25000;
 
@@ -42,15 +42,16 @@ export default async (event) => {
       };
     }
 
-    const body = await res.text();
+		const data = await res.json();
 
     return {
       statusCode: 200,
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(res.data)
+      body: JSON.stringify(data)
     };
+
   } catch (error) {
 		console.log(error);
 
