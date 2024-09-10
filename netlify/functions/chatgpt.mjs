@@ -38,6 +38,7 @@ exports.handler = async function (event, context) {
     const data = await res.json();
     console.log(data)
     console.log(data.choices)
+    console.log(data.choices.message)
 
     if (data.choices && data.choices.length > 0) {
       return {
