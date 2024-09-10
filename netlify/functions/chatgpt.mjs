@@ -37,15 +37,25 @@ exports.handler = async function (event, context) {
 
     const data = await res.json();
     console.log(data)
-    onsole.log(data.choices)
+    console.log(data.choices)
 
-    return {
-      statusCode: 200,
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data.choices[0].message.content.trim())
-    };
+    if (data.choices && data.choices.length > 0) {
+      return {
+        statusCode: 200,
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data.choices[0].message.content.trim())  // Correction pour gpt-3.5-turbo
+      };
+    } else {
+      return {
+        statusCode: 500,
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ error: "La réponse de l'API ne contient pas de 'choices' valides." })
+      };
+    }
 
   } catch (error) {
     clearTimeout(timeoutId);
