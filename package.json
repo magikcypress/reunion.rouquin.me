@@ -23,7 +23,6 @@
 	"engines": {
 		"node": ">=14"
 	},
-	"type": "module",
 	"bugs": {
 		"url": "https://github.com/magikcypress/reunion.rouquin.me/issues"
 	},
