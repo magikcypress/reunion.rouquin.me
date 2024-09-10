@@ -13,7 +13,7 @@ const ChatGPTWidgetControl = createClass({
         placeholder: 'Posez une question à ChatGPT',
 				style: {
 					width: '100%',
-					height: '300px',
+					height: '50px',
 					padding: '15px',
 					fontFamily: 'Arial',
 					fontSize: '16px',

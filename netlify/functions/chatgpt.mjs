@@ -18,7 +18,7 @@ export default async (event) => {
         "Authorization": `Bearer ${apiKey}` // Utilise la clé API OpenAI
       },
       body: JSON.stringify({
-        model: "gpt-3.5-turbo",
+        model: "gpt-4",
         messages: [
           {
             role: "system",
