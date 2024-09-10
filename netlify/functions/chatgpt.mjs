@@ -1,4 +1,4 @@
-exports.handler = async (event) => {
+export default async (event) => {
   const apiKey = process.env.OPENAIKEY;
 	const timeOut = 25000;
 
