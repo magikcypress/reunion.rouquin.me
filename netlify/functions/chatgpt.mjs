@@ -36,13 +36,9 @@ exports.handler = async function (event, context) {
     }
 
     const data = await res.json();
-    console.log(data)
-    console.log(data.choices)
-    
 
     if (data.choices) {
       const d = data.choices[0].message.content.trim();
-      console.log(d)
       return {
         statusCode: 200,
         headers: {
