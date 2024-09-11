@@ -38,9 +38,9 @@ exports.handler = async function (event, context) {
     const data = await res.json();
     console.log(data)
     console.log(data.choices)
-    console.log(data.choices[0].message)
+    console.log(data.choices[0].message.content)
 
-    if (data.choices && data.choices[0].length > 0) {
+    if (data.choices && data.choices[0].message.content.length > 0) {
       return {
         statusCode: 200,
         headers: {
