@@ -39,11 +39,10 @@ const ChatGPTWidgetControl = createClass({
       },
       body: JSON.stringify({ question })
     })
-    .then(response => response.json())
-    .then(data => {
-      const d = data.choices[0].message.content.trim();
-      console.log(d)
-      document.getElementById('chatgpt-response').innerText = JSON.stringify({d});
+    .then(response => { 
+      response.json() 
+      const d = response.choices[0].message.content.trim();
+      document.getElementById('chatgpt-response').innerText = d;
     })
     .catch(error => {
       document.getElementById('chatgpt-response').innerText = "Erreur : " + error;
