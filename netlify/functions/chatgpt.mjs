@@ -40,13 +40,13 @@ exports.handler = async function (event, context) {
     console.log(data.choices)
     console.log(data.choices[0].message)
 
-    if (data.choices && data.choices.length > 0) {
+    if (data.choices && data.choices[0].length > 0) {
       return {
         statusCode: 200,
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(data.choices.message.content.trim())  // Correction pour gpt-3.5-turbo
+        body: JSON.stringify(data.choices[0].message.content.trim())  // Correction pour gpt-3.5-turbo
       };
     } else {
       return {
