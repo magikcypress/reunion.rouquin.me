@@ -40,7 +40,7 @@ exports.handler = async function (event, context) {
     console.log(data.choices)
     console.log(data.choices[0].message.content)
 
-    if (data.choices && data.choices[0].message.content.length > 0) {
+    if (data.choices) {
       return {
         statusCode: 200,
         headers: {
