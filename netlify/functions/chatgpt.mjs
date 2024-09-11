@@ -48,7 +48,7 @@ exports.handler = async function (event, context) {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(d)
+        body: JSON.stringify({d})
       };
     } else {
       return {
