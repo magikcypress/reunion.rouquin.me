@@ -40,6 +40,7 @@ const ChatGPTWidgetControl = createClass({
       body: JSON.stringify({ question })
     })
     .then(response => {
+			console.log(response);
       return response.json();
     })
     .then(data => {
