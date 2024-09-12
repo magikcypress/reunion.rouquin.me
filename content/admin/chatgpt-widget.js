@@ -44,9 +44,10 @@ const ChatGPTWidgetControl = createClass({
       return response.json(); // Il faut renvoyer la promesse json
     })
     .then(data => {
-      const trimmedData = data.trim(); // Utiliser une variable correcte
-			console.log(trimmedData);
-      document.getElementById('chatgpt-response').innerText = trimmedData;
+			console.log(data);
+      // const trimmedData = data.trim(); // Utiliser une variable correcte
+			// console.log(trimmedData);
+      // document.getElementById('chatgpt-response').innerText = trimmedData;
     })
     .catch(error => {
       document.getElementById('chatgpt-response').innerText = "Erreur : " + error;
