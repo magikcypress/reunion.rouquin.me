@@ -39,9 +39,11 @@ const ChatGPTWidgetControl = createClass({
       },
       body: JSON.stringify({ question })
     })
-    .then(response => { 
-      response.json() 
+    .then(response => {
+			console.log(response);
+      response.json()
       const d = response.choices[0].message.content.trim();
+			console.log(d);
       document.getElementById('chatgpt-response').innerText = d;
     })
     .catch(error => {
