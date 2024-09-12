@@ -296,10 +296,3 @@ figcaption {
 }
 
 #map { height: 180px; }
-
-.chatgpt-response {
-	margin: 3px 0;
-	color: #17050F;
-	border: solid 1px rgb(204, 204, 204);
-	background-color: rgb(249, 249, 249);
-}
