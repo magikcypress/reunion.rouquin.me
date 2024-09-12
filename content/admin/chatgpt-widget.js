@@ -41,16 +41,12 @@ const ChatGPTWidgetControl = createClass({
     })
     .then(response => {
 			console.log(response);
-      response.json();
-			console.log(response.d);
-			document.getElementById('chatgpt-response').innerText = response.d;
+      return response.json(); // Il faut renvoyer la promesse json
     })
-    .then(d => {
-			console.log(d);
-      //response.json()
-      const dd = d.trim();
-			console.log(dd);
-      document.getElementById('chatgpt-response').innerText = dd;
+    .then(data => {
+      const trimmedData = data.trim(); // Utiliser une variable correcte
+			console.log(trimmedData);
+      document.getElementById('chatgpt-response').innerText = trimmedData;
     })
     .catch(error => {
       document.getElementById('chatgpt-response').innerText = "Erreur : " + error;
