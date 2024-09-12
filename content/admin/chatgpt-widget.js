@@ -40,14 +40,12 @@ const ChatGPTWidgetControl = createClass({
       body: JSON.stringify({ question })
     })
     .then(response => {
-			console.log(response);
-      return response.json(); // Il faut renvoyer la promesse json
+      return response.json();
     })
     .then(data => {
-			console.log(data);
-      // const trimmedData = data.trim(); // Utiliser une variable correcte
-			// console.log(trimmedData);
-      // document.getElementById('chatgpt-response').innerText = trimmedData;
+      const trimmedData = data.d.trim();
+			console.log(trimmedData);
+      document.getElementById('chatgpt-response').innerText = trimmedData;
     })
     .catch(error => {
       document.getElementById('chatgpt-response').innerText = "Erreur : " + error;
