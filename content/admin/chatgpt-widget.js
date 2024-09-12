@@ -25,7 +25,7 @@ const ChatGPTWidgetControl = createClass({
       h('button', {
         onClick: this.handleSendToChatGPT
       }, 'Envoyer'),
-      h('div', { id: 'chatgpt-response' }, 'Réponse ici...')
+      h('div', { id: 'chatgpt-response', class: 'chatgpt-response' }, 'Réponse ici...')
     ]);
   },
   handleSendToChatGPT() {
@@ -44,7 +44,6 @@ const ChatGPTWidgetControl = createClass({
     })
     .then(data => {
       const trimmedData = data.d.trim();
-			console.log(trimmedData);
       document.getElementById('chatgpt-response').innerText = trimmedData;
     })
     .catch(error => {
