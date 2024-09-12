@@ -42,12 +42,13 @@ const ChatGPTWidgetControl = createClass({
     .then(response => {
 			console.log(response);
       response.json();
-			console.log(response);
+			console.log(response.d);
+			document.getElementById('chatgpt-response').innerText = response.d;
     })
-    .then(data => {
-			console.log(data);
+    .then(d => {
+			console.log(d);
       //response.json()
-      const dd = data.choices[0].message.content.trim();
+      const dd = d.trim();
 			console.log(dd);
       document.getElementById('chatgpt-response').innerText = dd;
     })
