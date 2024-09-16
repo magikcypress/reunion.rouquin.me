@@ -3,7 +3,7 @@ title: Ce qui doit être fait ! 😉
 draft: false
 date: 2024-09-16
 ---
-Voici le résumé à la première personne de mon programme pour une semaine à l'île de La Réunion :
+Voici le résumé de mon programme pour une semaine à l'île de La Réunion :
 
 ### 1. **Visite en hélicoptère**
    - À mon arrivée, je commencerai par un vol en hélicoptère pour avoir une vue panoramique des paysages de l'île : les cirques de **Mafate**, **Cilaos**, et **Salazie**, ainsi que le **Piton de la Fournaise**. Ce sera une façon incroyable de découvrir l'île dès le début de mon séjour.
