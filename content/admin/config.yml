@@ -56,7 +56,7 @@ collections: # A list of collections the CMS should be able to edit
         }
 
       # - { label: 'Location', name: 'location', widget: 'map' }
-      - { label: 'ChatGPT', name: 'chatgpt', widget: 'chatgpt' }
+      # - { label: 'ChatGPT', name: 'chatgpt', widget: 'chatgpt' }
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
   - name: 'settings'
