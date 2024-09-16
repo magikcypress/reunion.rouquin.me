@@ -7,6 +7,6 @@ Mon vol s’est bien passé … après plus de 4 ans sans prendre de long courri
 
 Un chauffeur très sympathique m’a déposé à l’hôtel depuis l’aéroport. J’ai pris un petit déjeuné et Thomas le concierge de l’hôtel a pris du temps pour me présenter les différents excusions sur une carte et m’a fait visiter l’hôtel et son lagon.
 
-![Photo du patio à l’accueil de l’hôtel](/public/img/img_2554.jpeg "Photo du patio à l’accueil de l’hôtel")
+![Photo du patio à l’accueil de l’hôtel](/img/img_2554.jpeg "Photo du patio à l’accueil de l’hôtel")
 
 Ça très étrange de se retrouver sur une petite île au milieu de nul part 😉
