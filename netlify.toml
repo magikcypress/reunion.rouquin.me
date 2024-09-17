@@ -7,13 +7,8 @@
   directory = "netlify/functions"
 
 [[redirects]]
-  # Serve a full size version
-  from = "/images/full/:file"
-  to = "/.netlify/images?url=/images/:file"
-  status = 200
-
-[[redirects]]
-  # ...or serve a resized version
+  # Get a width and file name value from the URL
   from = "/images/:width/:file"
+  # ...and pass them along as the correct request parameters
   to = "/.netlify/images?url=/images/:file&width=:width"
   status = 200
