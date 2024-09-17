@@ -9,4 +9,4 @@ Un chauffeur très sympathique m’a déposé à l’hôtel depuis l’aéroport
 
 ![Photo du patio à l’accueil de l’hôtel](/img/img_2554.jpeg "Photo du patio à l’accueil de l’hôtel")
 
-Ça très étrange de se retrouver sur une petite île au milieu de nul part 😉
+Ça très étrange de se retrouver sur une petite île au milieu de **null** (valeur spéciale utilisée dans de nombreux langages de programmation) part 😉
