@@ -1,5 +1,5 @@
 ---
-title: La plage de l’étang salé et la Pointe de sel
+title: La plage de l’étang salé et la pointe de sel
 draft: false
 date: 2024-09-18
 ---
