@@ -13,6 +13,6 @@ En arrivant sur la Plaine des Sables, j'ai été frappé par l’immensité et l
 
 Après une petite pause pour admirer le paysage, j’ai repris ma route en direction du Piton de la Fournaise. Le chemin, bien que rocailleux, est plein de surprises. Plus j’avançais, plus le spectacle naturel devenait époustouflant. Voir de près ce volcan actif, ses pentes imposantes et son cratère est une expérience qui vous laisse sans voix.
 
-![le piton](/img/img_2672.jpeg "Le piton de la fournaise")
+![le piton](/img/img_2672.jpeg "Le piton de la fournaise (depuis le planché des vaches)")
 
 Ce qui a commencé par une envie spontanée après un vol en hélicoptère s’est transformé en une aventure inoubliable. Le Piton de la Fournaise est, sans aucun doute, l’un des joyaux de la Réunion, et je ne peux que vous encourager à vivre cette expérience. C’était tout simplement... *formidable* !
