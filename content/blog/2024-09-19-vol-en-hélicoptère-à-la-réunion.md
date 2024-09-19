@@ -3,8 +3,7 @@ title: Vol en Hélicoptère à la Réunion
 draft: false
 date: 2024-09-19
 ---
-![L’hélicoptère de tous les dangers ☢️ ](
-/img/img_2590.jpeg "L’hélicoptère de tous les dangers ☢️ ")
+![L’hélicoptère de tous les dangers ☢️ ](/img/img_2590.jpeg "L’hélicoptère de tous les dangers ☢️ ")
 
 L’un des moments forts de mon séjour à l’île de la Réunion était, sans conteste, le vol en hélicoptère que j’avais réservé pour découvrir la beauté spectaculaire de l’île vue du ciel. Rien que l’idée de survoler des volcans, des cascades vertigineuses et des cirques majestueux me donnait déjà des frissons. Cependant, notre aventure a eu un petit rebondissement inattendu avant de véritablement décoller.
 
