@@ -7,7 +7,7 @@ date: 2024-09-19
 
 Après avoir survolé la Réunion en hélicoptère, un endroit en particulier m’a fasciné : la Plaine des Sables. Cette étendue désertique, vue d'en haut, m’a immédiatement rappelé les paysages lunaires que j’avais vus en Bolivie. Je savais que je devais m'y rendre, et c’est exactement ce que j’ai fait cet après-midi.
 
-![La plaine de sable](/public/img/img_2649.jpeg "La plaine de sable")
+![La plaine de sable](/img/img_2649.jpeg "La plaine de sable")
 
 En arrivant sur la Plaine des Sables, j'ai été frappé par l’immensité et le contraste des couleurs. On se croirait littéralement sur une autre planète, avec ces teintes rougeâtres et grises qui s’étendent à perte de vue. C’est un endroit qui inspire à la fois la tranquillité et l’émerveillement.
 
