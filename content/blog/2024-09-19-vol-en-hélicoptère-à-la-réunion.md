@@ -3,9 +3,12 @@ title: Vol en Hélicoptère à la Réunion
 draft: false
 date: 2024-09-19
 ---
-
+![L’hélicoptère de tous les dangers ☢️ ](
+/img/img_2590.jpeg "L’hélicoptère de tous les dangers ☢️ ")
 
 L’un des moments forts de mon séjour à l’île de la Réunion était, sans conteste, le vol en hélicoptère que j’avais réservé pour découvrir la beauté spectaculaire de l’île vue du ciel. Rien que l’idée de survoler des volcans, des cascades vertigineuses et des cirques majestueux me donnait déjà des frissons. Cependant, notre aventure a eu un petit rebondissement inattendu avant de véritablement décoller.
+
+![Une bien belle cascade ](/img/img_2610.jpeg "Une bien belle cascade")
 
 **Le Matin du Départ**
 
@@ -19,6 +22,8 @@ C’est ainsi que, malgré notre impatience, nous avons dû patienter pendant pr
 
 L’attente, bien que frustrante sur le moment, s’est finalement révélée être un moment de détente et de réflexion, où chacun imaginait déjà la vue époustouflante qui nous attendait.
 
+![Le piton vue du ciel](/img/img_2629.jpeg "Le piton vue du ciel")
+
 **Un Nouveau Départ à 8h**
 
 Finalement, à 8h pile, tout était en ordre. Le voyant s’était éteint et notre vol pouvait commencer en toute sécurité. Le moteur s’est mis à vrombir, les pales ont commencé à tourner à une vitesse fulgurante, et en quelques secondes, nous étions dans les airs, laissant derrière nous la terre ferme et la petite frayeur du matin.
@@ -28,6 +33,8 @@ Finalement, à 8h pile, tout était en ordre. Le voyant s’était éteint et no
 Dès les premiers instants, tous les petits désagréments de la matinée se sont évaporés. Le paysage qui s’est déroulé sous nos yeux était absolument à couper le souffle : les cirques de Mafate et Cilaos, les cascades du Trou de Fer, les pentes abruptes et le cratère du Piton de la Fournaise... C’était comme si nous étions plongés dans un tableau vivant, où chaque détail semblait parfait, magnifié par la lumière douce du matin.
 
 Le calme régnant dans l’hélicoptère était en contraste avec l’émotion intense qui nous habitait.
+
+![Le cockpit](/img/img_2637.jpeg "Le cockpit")
 
 **Un Souvenir Gravé**
 
