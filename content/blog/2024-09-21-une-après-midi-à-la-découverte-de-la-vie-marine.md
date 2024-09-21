@@ -1,5 +1,5 @@
 ---
-title: Une Après-midi à la Découverte de la Vie Marine
+title: Une après-midi à la découverte de la vie marine
 draft: false
 date: 2024-09-21
 ---
