@@ -9,7 +9,7 @@ La cuisine réunionnaise sait vraiment comment marier simplicité et plaisir. Le
 
 Ce soir, un **rôti merlan** frais de ce matin, accompagné de riz et de lentilles, c’est une autre facette de la gastronomie locale que j’ai savouré : une cuisine à la fois simple, authentique et délicieuse!
 
-** Les adresses **
+**Les adresses**
 
 - Le Barachois - Saint Denis
 - Le biyou - 15 bis Chem. de l'Hermitage, Saint-Paul
