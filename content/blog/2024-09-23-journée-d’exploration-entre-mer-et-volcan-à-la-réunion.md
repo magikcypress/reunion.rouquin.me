@@ -3,9 +3,8 @@ title: Journée d’exploration entre mer et volcan
 draft: false
 date: 2024-09-23
 ---
+![Départ de l’hôtel à 7h30](/img/img_2849.jpeg "Départ de l’hôtel à 7h30")
 
-
-\
 Aujourd'hui, j’ai eu la chance de vivre une journée exceptionnelle en compagnie de mon guide, Anthony, qui m’a fait découvrir plusieurs sites emblématiques de La Réunion, tout en me partageant son savoir et sa passion pour l’île.
 
 #### Première étape : Le Gouffre
