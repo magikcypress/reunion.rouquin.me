@@ -27,6 +27,8 @@ La **Cascade Langevin** est une merveille naturelle cachée dans la verdure. Son
 
 #### Pause gourmande à L’Étoile des Mers
 
+![]()
+
 Le déjeuner a eu lieu à **L’Étoile des Mers** à Saint-Philippe, un restaurant qui propose des plats typiques de la cuisine réunionnaise, en mettant à l’honneur le riz, graines, crevette, ananas, piment. Après une matinée riche en découvertes, ce repas fut un moment de réconfort bienvenu.
 
 #### Les coulées de lave de 2004 et 2007
