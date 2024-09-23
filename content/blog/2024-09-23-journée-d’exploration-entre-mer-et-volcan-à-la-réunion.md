@@ -9,9 +9,13 @@ Aujourd'hui, j’ai eu la chance de vivre une journée exceptionnelle en compagn
 
 #### Première étape : Le Gouffre
 
+![Le gouffre](/img/img_2851.jpeg "Le gouffre")
+
 La journée a commencé avec une visite au **Gouffre**, un lieu où la puissance de l’océan se fait sentir. Les vagues, en se brisant contre les falaises de basalte, offraient un spectacle à la fois hypnotisant et impressionnant. L’énergie de ce site sauvage te laisse une sensation de liberté, renforcée par le bruit assourdissant des vagues.
 
 #### La plage de Grande Anse
+
+![Plage de la grande anse](/img/img_2858.jpeg "Plage de la grande anse")
 
 Nous avons ensuite fait une halte à la magnifique **plage de Grande Anse**, un lieu paradisiaque avec ses eaux turquoise et son sable fin. C’est l’endroit parfait pour une petite pause détente sous les cocotiers. Un véritable havre de paix pour se ressourcer avant de continuer l'aventure.
 
