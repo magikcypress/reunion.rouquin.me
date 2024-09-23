@@ -21,6 +21,8 @@ Nous avons ensuite fait une halte à la magnifique **plage de Grande Anse**, un 
 
 #### Cascade Langevin : un trésor naturel
 
+![Cascade Langevin](/img/img_2877.jpeg "Cascade Langevin")
+
 La **Cascade Langevin** est une merveille naturelle cachée dans la verdure. Son cadre idyllique invite à la détente et à la contemplation. Certains se baignent dans l’eau fraîche en contrebas, tandis que d’autres profitent de la beauté du paysage. Un coin de paradis où l’on se sent en totale harmonie avec la nature.
 
 #### Pause gourmande à L’Étoile des Mers
