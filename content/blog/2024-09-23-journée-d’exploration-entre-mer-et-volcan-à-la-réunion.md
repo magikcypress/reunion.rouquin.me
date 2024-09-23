@@ -27,7 +27,7 @@ La **Cascade Langevin** est une merveille naturelle cachée dans la verdure. Son
 
 #### Pause gourmande à L’Étoile des Mers
 
-![]()
+![Riz, graines, crevette, ananas et son jus de goyavier](/img/img_2900.jpeg "Riz, graines, crevettes, ananas et son jus de goyavier")
 
 Le déjeuner a eu lieu à **L’Étoile des Mers** à Saint-Philippe, un restaurant qui propose des plats typiques de la cuisine réunionnaise, en mettant à l’honneur le riz, graines, crevette, ananas, piment. Après une matinée riche en découvertes, ce repas fut un moment de réconfort bienvenu.
 
