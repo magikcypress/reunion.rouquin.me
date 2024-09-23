@@ -1,8 +1,11 @@
 ---
-title: Journée d’exploration entre mer et volcan à La Réunion
+title: Journée d’exploration entre mer et volcan
 draft: false
 date: 2024-09-23
 ---
+
+
+\
 Aujourd'hui, j’ai eu la chance de vivre une journée exceptionnelle en compagnie de mon guide, Anthony, qui m’a fait découvrir plusieurs sites emblématiques de La Réunion, tout en me partageant son savoir et sa passion pour l’île.
 
 #### Première étape : Le Gouffre
@@ -29,6 +32,6 @@ L'après-midi, direction les coulées de lave du Piton de la Fournaise. Marcher 
 
 Pour couronner le tout, mon guide Anthony m’a offert bien plus qu’une simple visite. En plus de m'initier au créole réunionnais, il m’a donné des cours de botanique en m'expliquant les plantes endémiques de l'île. Il a même partagé avec moi une expérience authentique en me faisant goûter de la canne à sucre fraîche. Cette interaction humaine et ces anecdotes ont rendu la journée encore plus mémorable.
 
----
+- - -
 
 Entre les paysages à couper le souffle, les leçons de créole, les découvertes botaniques et la dégustation de canne à sucre, cette journée fut un concentré d’authenticité et de découvertes, tout cela dans la bonne humeur. Une aventure à La Réunion que je n’oublierai pas de sitôt.
