@@ -7,7 +7,7 @@ date: 2024-09-24
 
 Il y a des sorties en mer où l'on est assuré de voir la faune marine dans toute sa splendeur. Et puis, il y a ces moments où la nature joue à cache-cache, nous rappelant à quel point elle est imprévisible. C’est exactement ce qui m’est arrivé lors de ma sortie en catamaran au départ du port de plaisance de Saint-Gilles, sur l'île de La Réunion.
 
-\#### Le Départ: Entre Ciel et Mer
+#### Le Départ: Entre Ciel et Mer
 
 ![Le cap’tain à la barre](/img/img_2941.jpeg "Le cap’tain à la barre")
 
