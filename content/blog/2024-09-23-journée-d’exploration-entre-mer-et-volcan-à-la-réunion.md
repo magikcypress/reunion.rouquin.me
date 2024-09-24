@@ -33,6 +33,8 @@ Le déjeuner a eu lieu à **L’Étoile des Mers** à Saint-Philippe, un restaur
 
 #### Les coulées de lave de 2004 et 2007
 
+![Coulée de lave 2007](/img/img_2906.jpeg "Coulée de lave 2007")
+
 L'après-midi, direction les coulées de lave du Piton de la Fournaise. Marcher sur la lave solidifiée des éruptions de **2004** et **2007** est une expérience unique, mêlant émerveillement et humilité face à la puissance de la nature. Les paysages lunaires créés par ces éruptions récentes sont tout simplement époustouflants.
 
 #### Une immersion totale grâce à Anthony
