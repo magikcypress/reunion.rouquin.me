@@ -17,7 +17,7 @@ Tout a commencé avec une montée d’adrénaline : un vol en parapente au-dessu
 
 #### Le Déjeuner: O'Bord Mer à Saint-Pierre
 
-Après cette matinée riche en émotions, il était temps de retrouver le plancher des vaches et de profiter d’un bon repas. Avec Marie, nous avons choisi le restaurant **O'Bord Mer**, situé dans le quartier de pêcheurs de Saint-Pierre. Ce lieu pittoresque, avec sa vue imprenable sur l’océan, est idéal pour une pause gourmande. Le bruit des vagues qui s'écrasent sur la plage juste en bas ajoutait une touche apaisante à notre déjeuner.
+Après cette matinée riche en émotions, il était temps de retrouver le plancher des vaches et de profiter d’un bon repas. Avec Marie, nous avons choisi le restaurant **Ô Bord'Mer**, situé dans le quartier de pêcheurs de Saint-Pierre. Ce lieu pittoresque, avec sa vue imprenable sur l’océan, est idéal pour une pause gourmande. Le bruit des vagues qui s'écrasent sur la plage juste en bas ajoutait une touche apaisante à notre déjeuner.
 
 Le menu proposait des plats frais, pour moi un filet de perroquet (poisson pas le volatile). Le cadre, l’atmosphère et la compagnie de Marie ont rendu ce déjeuner particulièrement agréable, avec cette sensation de déconnexion totale, loin de l’agitation quotidienne.
 
@@ -30,3 +30,6 @@ Pour terminer la journée sur une note plus douce, j’ai fait une halte au **Do
 #### Conclusion: Une Journée Parfaite
 
 Cette journée à Saint-Pierre aura été une parenthèse enchantée, alternant entre adrénaline, plaisirs gastronomiques et détente. Le parapente m’a offert une nouvelle perspective de La Réunion, tandis que le déjeuner avec Marie et ma pause café en solitaire ont ajouté une touche de convivialité et de réflexion à cette aventure. Une journée mémorable à tous points de vue.
+
+**L’adresse du Ô Bord'Mer**
+- 50A Rue Amiral Lacaze, Saint-Pierre 97410, La Réunion
