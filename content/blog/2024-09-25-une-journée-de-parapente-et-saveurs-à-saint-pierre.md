@@ -27,12 +27,11 @@ Le menu proposait des plats frais, pour moi un filet de perroquet (poisson pas l
 
 Pour terminer la journée sur une note plus douce, j’ai fait une halte au **Domaine du Café Grillé**, un endroit parfait pour se détendre seul. Niché au milieu de jardins exotiques, cet endroit respire la sérénité. J'ai savouré deux petits cafés, chacun préparé avec soin, tout en prenant le temps de me ressourcer.
 
-![Le café le plus chère du monde](/public/img/img_3017.jpeg "Le café le plus chère du monde")
+![Le café le plus chère du monde](/img/img_3017.jpeg "Le café le plus chère du monde")
 
 *À droite le café bourbon rond, à gauche le café bourbon pointu*
 
-#### \
-Conclusion: Une Journée Parfaite
+#### Conclusion: Une Journée Parfaite
 
 Cette journée à Saint-Pierre aura été une parenthèse enchantée, alternant entre adrénaline, plaisirs gastronomiques et détente. Le parapente m’a offert une nouvelle perspective de La Réunion, tandis que le déjeuner avec Marie et ma pause café en solitaire ont ajouté une touche de convivialité et de réflexion à cette aventure. Une journée mémorable à tous points de vue.
 
