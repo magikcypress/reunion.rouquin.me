@@ -5,3 +5,10 @@
 
 [functions]
   directory = "netlify/functions"
+
+[[redirects]]
+  # Get a width and file name value from the URL
+  from = "/images/:width/:file"
+  # ...and pass them along as the correct request parameters
+  to = "/.netlify/images?url=/images/:file&width=:width"
+  status = 200

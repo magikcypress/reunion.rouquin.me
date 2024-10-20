@@ -9,6 +9,7 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin, EleventyRenderPlugin  } = require("@11ty/eleventy");
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
+const Image = require("@11ty/eleventy-img");
 
 let options = {
     // whatever options you have set for the library here
