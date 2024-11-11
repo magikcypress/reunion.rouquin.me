@@ -18,7 +18,7 @@ exports.handler = async function (event, context) {
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
         messages: [{ role: "user", content: prompt }],  // Utilisation de "messages" pour gpt-3.5-turbo
-        max_tokens: 100
+        max_tokens: 1000
       }),
       signal: controller.signal  // Utilisation du signal du controller pour le timeout
     });
